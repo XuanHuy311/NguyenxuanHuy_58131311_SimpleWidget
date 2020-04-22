@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 private void thongTin(){
     StringBuilder result=new StringBuilder();
-    result.append(edtName.getText().toString() +"\n" + edtDate.getText().toString() +"\nGiới tính:");
+    result.append(edtName.getText().toString() +"\nNgày sinh:" + edtDate.getText().toString() +"\nGiới tính:");
     switch (rdgGioiTinh.getCheckedRadioButtonId()){
         case R.id.rbNam:
             result.append("Nam");
